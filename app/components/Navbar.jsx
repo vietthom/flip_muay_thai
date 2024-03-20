@@ -16,7 +16,7 @@ export default function Navbar() {
         <li><Link href="/about">About Us</Link></li>
         <li><Link href="/contact">Contact</Link></li>
       </ul>
-      <button className="border border-solid border-[#D4AF37] px-4 text-2xl">Sign-up</button>
+      <button className="border border-solid border-[#D4AF37] px-4 text-2xl hover:bg-[#D4AF37]">Sign-up</button>
     </nav>
   )
 }
