@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet" />
       </head>
       <body className={inter.className}>
-      <Navbar />
+        <Navbar />
         {children}
         </body>
     </html>
