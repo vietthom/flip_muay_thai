@@ -4,7 +4,7 @@ import Logo from '/public/logo.png'
 
 export default function Navbar() {
   return (
-    <nav className=" mx-auto h-16 px-20 flex items-center justify-between font-bebas uppercase">
+    <nav className="mx-auto h-16 px-20 flex items-center justify-between font-bebas uppercase">
       <Image 
         src={Logo}
         alt="Logo"
